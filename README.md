@@ -23,7 +23,7 @@ The approach integrates **fuzzy logic-based membership matrices** with a **Rando
 ## 🌐 Data Source
 
 - [Open-Meteo Historical API](https://open-meteo.com/en/docs/historical-weather-api)
-- Derived from **ECMWF IFS** (Integrated Forecasting System)
+- Derived from **ECMWF IFS** (Integrated Forecasting System) **ERRA 5** dataset
 - Dataset includes daily records from **March 1, 2000 to March 31, 2024**
 
 ### 📊 Parameters Used
