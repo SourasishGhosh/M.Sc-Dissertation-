@@ -1,4 +1,4 @@
-# M.Sc-Dissertation-
+# M.Sc-Dissertation
 M.Sc Dissertation on "A Hybrid Fuzzy–Random Forest Classification Model for SevereWeather Prediction in the Kolkata and North 24 Parganas District Regions"
 
 
