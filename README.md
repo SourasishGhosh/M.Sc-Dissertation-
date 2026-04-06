@@ -2,7 +2,7 @@
 M.Sc Dissertation on "A Hybrid Fuzzy–Random Forest Classification Model for SevereWeather Prediction in the Kolkata and North 24 Parganas District Regions"
 
 
-# 🌩️ Hybrid Fuzzy–Random Forest Model for Severe Weather Prediction
+# Hybrid Fuzzy–Random Forest Model for Severe Weather Prediction
 
 **Author:** Sourasish Ghosh  
 **Institution:** University of Calcutta  
@@ -12,7 +12,7 @@ M.Sc Dissertation on "A Hybrid Fuzzy–Random Forest Classification Model for Se
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project presents a **hybrid fuzzy–Random Forest (RF)** model for classifying severe weather events using **24 years of historical meteorological data** (2000–2024) from **Kolkata and North 24 Parganas District Regions** in Eastern India.
 
@@ -20,13 +20,13 @@ The approach integrates **fuzzy logic-based membership matrices** with a **Rando
 
 ---
 
-## 🌐 Data Source
+## Data Source
 
 - [Open-Meteo Historical API](https://open-meteo.com/en/docs/historical-weather-api)
 - Derived from **ECMWF IFS** (Integrated Forecasting System) **ERRA 5** dataset
 - Dataset includes daily records from **March 1, 2000 to March 31, 2024**
 
-### 📊 Parameters Used
+### Parameters Used
 
 - Temperature (Mean, Max, Min)
 - Relative Humidity
@@ -38,7 +38,7 @@ The approach integrates **fuzzy logic-based membership matrices** with a **Rando
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### 1. **Descriptive Analysis**
 - Computed statistical properties (mean, skewness, kurtosis)
@@ -57,34 +57,25 @@ The approach integrates **fuzzy logic-based membership matrices** with a **Rando
 
 ---
 
-## 📈 Results
+## Results
 
 - **Overall Accuracy**: 88.64%  
 - **Macro F1 Score**: 0.87  
 - **Best Performing Classes**:  
-  - 🌡️ Humid Heat Wave (F1 ≈ 1.0)  
-  - ❄️ Cold Wave (F1 ≈ 1.0)  
-  - 🌀 Tropical Cyclone (F1 ≈ 0.75)
+  -  Humid Heat Wave (F1 ≈ 1.0)  
+  -  Cold Wave (F1 ≈ 1.0)  
+  -  Tropical Cyclone (F1 ≈ 0.75)
 
 - Misclassifications occurred mainly between **Flood** and **Thunderstorm**, likely due to overlapping features.
 
 ---
 
-## 🔍 Key Contributions
+##  Key Contributions
 
-- 📐 Introduced **fuzzy membership matrices** as interpretable features for weather classification
-- 🧠 Enhanced machine learning model accuracy with fuzzy-augmented input
-- ⚠️ Addressed **class imbalance** using RF with weighted classes
-- 📊 Provided insight into nonlinear interdependencies among meteorological parameters
+-  Introduced **fuzzy membership matrices** as interpretable features for weather classification
+-  Enhanced machine learning model accuracy with fuzzy-augmented input
+-  Addressed **class imbalance** using RF with weighted classes
+-  Provided insight into nonlinear interdependencies among meteorological parameters
 
 ---
 
-## 📂 Repository Structure
-
-```plaintext
-├── /data/                   # Sample dataset or fetch script
-├── /notebooks/             # Jupyter notebooks for EDA, fuzzy matrix, and RF training
-├── /src/                   # Python modules for fuzzy logic, feature engineering, model training
-├── M_Sc_Thesis.pdf         # Full dissertation (optional)
-├── README.md               # This file
-└── requirements.txt        # Python dependencies
